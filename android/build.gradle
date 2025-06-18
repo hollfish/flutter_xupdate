@@ -1,4 +1,4 @@
-group 'com.xuexiang.flutter_xupdate'
+group 'com.fork.flutter_xupdate'
 version '3.0.0'
 
 buildscript {
