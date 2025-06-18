@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A Flutter plugin for Android Version Update.
                        DESC
-  s.homepage         = 'https://github.com/xuexiangjys'
+  s.homepage         = 'https://github.com/forkjys'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'xuexiangjys@163.com' }
+  s.author           = { 'Your Company' => 'forkjys@163.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

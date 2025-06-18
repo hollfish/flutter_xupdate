@@ -18,12 +18,11 @@ class FlutterXUpdate {
   FlutterXUpdate._();
 
   static const MethodChannel _channel =
-      MethodChannel('com.xuexiang/flutter_xupdate');
+      MethodChannel('com.fork/flutter_xupdate');
 
   ///初始化插件(Android Only)
   static Future<Map?> init(
       {
-
       ///是否输出日志
       bool debug = false,
 
@@ -80,7 +79,6 @@ class FlutterXUpdate {
   ///检查版本更新(Android Only)
   static Future<Null> checkUpdate(
       {
-
       ///版本检查的地址
       required String url,
 
@@ -246,7 +244,6 @@ class FlutterXUpdate {
   ///显示重试提示弹窗(Android Only)
   static Future<Null> showRetryUpdateTipDialog(
       {
-
       ///重试提示弹窗的提示内容
       String retryContent = '',
 

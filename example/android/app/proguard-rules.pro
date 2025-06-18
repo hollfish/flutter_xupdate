@@ -138,4 +138,4 @@
 # Application classes that will be serialized/deserialized over Gson
 -keep class com.google.gson.examples.android.model.** { *; }
 # xupdate
--keep class com.xuexiang.xupdate.entity.** { *; }
+-keep class com.fork.xupdate.entity.** { *; }

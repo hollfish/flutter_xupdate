@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 xuexiangjys(xuexiangjys@163.com)
+ * Copyright (C) 2018 forkjys(forkjys@163.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.xuexiang.flutter_xupdate;
+package com.fork.flutter_xupdate;
 
 import androidx.annotation.NonNull;
 
 import com.google.gson.Gson;
-import com.xuexiang.xupdate.logs.UpdateLog;
-import com.xuexiang.xupdate.proxy.IUpdateHttpService;
-import com.xuexiang.xupdate.utils.UpdateUtils;
+import com.fork.xupdate.logs.UpdateLog;
+import com.fork.xupdate.proxy.IUpdateHttpService;
+import com.fork.xupdate.utils.UpdateUtils;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.FileCallBack;
 import com.zhy.http.okhttp.callback.StringCallback;
@@ -40,7 +40,7 @@ import okhttp3.Request;
 /**
  * 使用okhttp
  *
- * @author xuexiang
+ * @author fork
  * @since 2018/7/10 下午4:04
  */
 public class OKHttpUpdateHttpService implements IUpdateHttpService {

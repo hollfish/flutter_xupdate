@@ -1,17 +1,17 @@
 # flutter_xupdate
 
 [![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://pub.dev/packages/flutter_xupdate)
-[![Build Status](https://travis-ci.org/xuexiangjys/flutter_xupdate.svg?branch=master)](https://travis-ci.org/xuexiangjys/flutter_xupdate)
-[![Issue](https://img.shields.io/github/issues/xuexiangjys/flutter_xupdate.svg)](https://github.com/xuexiangjys/flutter_xupdate/issues)
-[![Star](https://img.shields.io/github/stars/xuexiangjys/flutter_xupdate.svg)](https://github.com/xuexiangjys/flutter_xupdate)
+[![Build Status](https://travis-ci.org/forkjys/flutter_xupdate.svg?branch=master)](https://travis-ci.org/forkjys/flutter_xupdate)
+[![Issue](https://img.shields.io/github/issues/forkjys/flutter_xupdate.svg)](https://github.com/forkjys/flutter_xupdate/issues)
+[![Star](https://img.shields.io/github/stars/forkjys/flutter_xupdate.svg)](https://github.com/forkjys/flutter_xupdate)
 
-A Flutter plugin for [XUpdate](https://github.com/xuexiangjys/XUpdate) -- Android Update Library。See the use [Chinese Document](https://github.com/xuexiangjys/flutter_xupdate/wiki) for details。
+A Flutter plugin for [XUpdate](https://github.com/forkjys/XUpdate) -- Android Update Library。See the use [Chinese Document](https://github.com/forkjys/flutter_xupdate/wiki) for details。
 
 ## About me
 
 | WeChat public number   | juejin     |  zhihu    |  CSDN   |   jianshu   |   segmentfault  |   bilibili  |   toutiao
 |---------|---------|--------- |---------|---------|---------|---------|---------|
-| [我的Android开源之旅](https://t.1yb.co/Irse)  |  [Click me](https://juejin.im/user/598feef55188257d592e56ed/posts)    |   [Click me](https://www.zhihu.com/people/xuexiangjys/posts)       |   [Click me](https://xuexiangjys.blog.csdn.net/)  |   [Click me](https://www.jianshu.com/u/6bf605575337)  |   [Click me](https://segmentfault.com/u/xuexiangjys)  |   [Click me](https://space.bilibili.com/483850585)  |   [Click me](https://img.rruu.net/image/5ff34ff7b02dd)
+| [我的Android开源之旅](https://t.1yb.co/Irse)  |  [Click me](https://juejin.im/user/598feef55188257d592e56ed/posts)    |   [Click me](https://www.zhihu.com/people/forkjys/posts)       |   [Click me](https://forkjys.blog.csdn.net/)  |   [Click me](https://www.jianshu.com/u/6bf605575337)  |   [Click me](https://segmentfault.com/u/forkjys)  |   [Click me](https://space.bilibili.com/483850585)  |   [Click me](https://img.rruu.net/image/5ff34ff7b02dd)
 
 ## Video tutorial
 
@@ -19,7 +19,7 @@ A Flutter plugin for [XUpdate](https://github.com/xuexiangjys/XUpdate) -- Androi
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/xuexiangjys/flutter_xupdate.svg)](https://starchart.cc/xuexiangjys/flutter_xupdate)
+[![Stargazers over time](https://starchart.cc/forkjys/flutter_xupdate.svg)](https://starchart.cc/forkjys/flutter_xupdate)
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ dependencies:
 dependencies:
   flutter_xupdate:
     git:
-      url: git://github.com/xuexiangjys/flutter_xupdate.git
+      url: git://github.com/forkjys/flutter_xupdate.git
       ref: master
 ```
 
@@ -93,7 +93,7 @@ dependencies:
   "VersionCode": 3,
   "VersionName": "1.0.2",
   "ModifyContent": "1、优化api接口。\r\n2、添加使用demo演示。\r\n3、新增自定义更新服务API接口。\r\n4、优化更新提示界面。",
-  "DownloadUrl": "https://raw.githubusercontent.com/xuexiangjys/XUpdate/master/apk/xupdate_demo_1.0.2.apk",
+  "DownloadUrl": "https://raw.githubusercontent.com/forkjys/XUpdate/master/apk/xupdate_demo_1.0.2.apk",
   "ApkSize": 2048
   "ApkMd5": "..."  //md5值没有的话，就无法保证apk是否完整，每次都会重新下载。框架默认使用的是md5加密。
 }

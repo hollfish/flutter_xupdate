@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 xuexiangjys(xuexiangjys@163.com)
+ * Copyright (C) 2019 forkjys(forkjys@163.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  *
  */
 
-package com.xuexiang.flutter_xupdate;
+package com.fork.flutter_xupdate;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -27,19 +27,19 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.xuexiang.xupdate.XUpdate;
+import com.fork.xupdate.XUpdate;
 
 
 /**
  * 版本更新重试提示弹窗
  *
- * @author xuexiang
+ * @author fork
  * @since 2019-06-15 00:06
  */
 public class RetryUpdateTipDialog extends AppCompatActivity implements DialogInterface.OnDismissListener {
 
-    public static final String KEY_CONTENT = "com.xuexiang.flutter_xupdate.KEY_CONTENT";
-    public static final String KEY_URL = "com.xuexiang.flutter_xupdate.KEY_URL";
+    public static final String KEY_CONTENT = "com.fork.flutter_xupdate.KEY_CONTENT";
+    public static final String KEY_URL = "com.fork.flutter_xupdate.KEY_URL";
 
 
     /**

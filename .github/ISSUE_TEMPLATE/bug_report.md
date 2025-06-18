@@ -3,15 +3,15 @@ name: 提交Bug报告
 about: 创建一个bug详情报告，以方便我们更好地改进
 title: ''
 labels: bug
-assignees: xuexiangjys
+assignees: forkjys
 
 ---
 
 **提Bug前需要做的事情**
 
-1.如果是集成问题的话，请保证仔细按照[集成指南](https://github.com/xuexiangjys/flutter_xupdate/wiki/%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97)的步骤，一步一步来，不要跳步骤！
-2.详细阅读过[使用手册](https://github.com/xuexiangjys/flutter_xupdate/wiki)，并且确保是框架的问题。
-3.参考[常见问题](https://github.com/xuexiangjys/flutter_xupdate/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98),可以解决你出现的绝大多数问题!
+1.如果是集成问题的话，请保证仔细按照[集成指南](https://github.com/forkjys/flutter_xupdate/wiki/%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97)的步骤，一步一步来，不要跳步骤！
+2.详细阅读过[使用手册](https://github.com/forkjys/flutter_xupdate/wiki)，并且确保是框架的问题。
+3.参考[常见问题](https://github.com/forkjys/flutter_xupdate/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98),可以解决你出现的绝大多数问题!
 
 > 如果以上都不能解决你的问题,那么请按照以下说明仔细填写信息,这里需要说明的是:不符合填写要求的issue一律不予理会,希望这样能节约大家的时间!
 

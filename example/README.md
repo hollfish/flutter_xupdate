@@ -83,7 +83,7 @@ Demonstrates how to use the flutter_xupdate plugin.
   "VersionCode": 3,
   "VersionName": "1.0.2",
   "ModifyContent": "1、优化api接口。\r\n2、添加使用demo演示。\r\n3、新增自定义更新服务API接口。\r\n4、优化更新提示界面。",
-  "DownloadUrl": "https://raw.githubusercontent.com/xuexiangjys/XUpdate/master/apk/xupdate_demo_1.0.2.apk",
+  "DownloadUrl": "https://raw.githubusercontent.com/forkjys/XUpdate/master/apk/xupdate_demo_1.0.2.apk",
   "ApkSize": 2048
   "ApkMd5": "..."  //md5值没有的话，就无法保证apk是否完整，每次都会重新下载。框架默认使用的是md5加密。
 }
@@ -186,6 +186,6 @@ void customPromptDialog() {
 
 ## Related links
 
-* [XUpdate Android SDK](https://github.com/xuexiangjys/XUpdate)
-* [XUpdate Management Service](https://github.com/xuexiangjys/XUpdateService)
-* [XUpdate Management System](https://github.com/xuexiangjys/xupdate-management)
+* [XUpdate Android SDK](https://github.com/forkjys/XUpdate)
+* [XUpdate Management Service](https://github.com/forkjys/XUpdateService)
+* [XUpdate Management System](https://github.com/forkjys/xupdate-management)

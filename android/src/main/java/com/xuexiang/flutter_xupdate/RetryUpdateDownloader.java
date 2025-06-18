@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 xuexiangjys(xuexiangjys@163.com)
+ * Copyright (C) 2019 forkjys(forkjys@163.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,23 +15,23 @@
  *
  */
 
-package com.xuexiang.flutter_xupdate;
+package com.fork.flutter_xupdate;
 
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.xuexiang.xupdate._XUpdate;
-import com.xuexiang.xupdate.entity.UpdateEntity;
-import com.xuexiang.xupdate.entity.UpdateError;
-import com.xuexiang.xupdate.proxy.impl.DefaultUpdateDownloader;
-import com.xuexiang.xupdate.service.OnFileDownloadListener;
+import com.fork.xupdate._XUpdate;
+import com.fork.xupdate.entity.UpdateEntity;
+import com.fork.xupdate.entity.UpdateError;
+import com.fork.xupdate.proxy.impl.DefaultUpdateDownloader;
+import com.fork.xupdate.service.OnFileDownloadListener;
 
 /**
  * 重写DefaultUpdateDownloader，在取消下载时，可弹出提示
  *
- * @author xuexiang
+ * @author fork
  * @since 2019-06-14 23:47
  */
 public class RetryUpdateDownloader extends DefaultUpdateDownloader {

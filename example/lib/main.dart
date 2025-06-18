@@ -267,13 +267,13 @@ class _MyAppState extends State<MyApp> {
   }
 
   final String _updateUrl =
-      'https://gitee.com/xuexiangjys/XUpdate/raw/master/jsonapi/update_test.json';
+      'https://gitee.com/forkjys/XUpdate/raw/master/jsonapi/update_test.json';
 
   final String _updateUrl2 =
-      'https://gitee.com/xuexiangjys/XUpdate/raw/master/jsonapi/update_forced.json';
+      'https://gitee.com/forkjys/XUpdate/raw/master/jsonapi/update_forced.json';
 
   final String _updateUrl3 =
-      'https://gitee.com/xuexiangjys/XUpdate/raw/master/jsonapi/update_custom.json';
+      'https://gitee.com/forkjys/XUpdate/raw/master/jsonapi/update_custom.json';
 
   ///默认App更新
   void checkUpdateDefault() {

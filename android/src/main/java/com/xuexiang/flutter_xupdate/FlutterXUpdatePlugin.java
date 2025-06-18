@@ -1,4 +1,4 @@
-package com.xuexiang.flutter_xupdate;
+package com.fork.flutter_xupdate;
 
 import android.app.Activity;
 import android.app.Application;
@@ -7,12 +7,12 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.xuexiang.xupdate.UpdateManager;
-import com.xuexiang.xupdate.XUpdate;
-import com.xuexiang.xupdate.entity.UpdateEntity;
-import com.xuexiang.xupdate.entity.UpdateError;
-import com.xuexiang.xupdate.listener.OnUpdateFailureListener;
-import com.xuexiang.xupdate.utils.UpdateUtils;
+import com.fork.xupdate.UpdateManager;
+import com.fork.xupdate.XUpdate;
+import com.fork.xupdate.entity.UpdateEntity;
+import com.fork.xupdate.entity.UpdateError;
+import com.fork.xupdate.listener.OnUpdateFailureListener;
+import com.fork.xupdate.utils.UpdateUtils;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -28,7 +28,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 /**
  * FlutterXUpdatePlugin
  *
- * @author xuexiang
+ * @author fork
  * @since 2020-02-04 16:33
  */
 public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, MethodCallHandler {

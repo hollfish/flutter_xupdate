@@ -1,8 +1,8 @@
-package com.xuexiang.flutter_xupdate;
+package com.fork.flutter_xupdate;
 
-import com.xuexiang.xupdate.entity.UpdateEntity;
-import com.xuexiang.xupdate.listener.IUpdateParseCallback;
-import com.xuexiang.xupdate.proxy.IUpdateParser;
+import com.fork.xupdate.entity.UpdateEntity;
+import com.fork.xupdate.listener.IUpdateParseCallback;
+import com.fork.xupdate.proxy.IUpdateParser;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -13,7 +13,7 @@ import io.flutter.plugin.common.MethodChannel;
 /**
  * Flutter端自定义版本更新解析器
  *
- * @author xuexiang
+ * @author fork
  * @since 2020-02-15 15:21
  */
 public class FlutterCustomUpdateParser implements IUpdateParser {
