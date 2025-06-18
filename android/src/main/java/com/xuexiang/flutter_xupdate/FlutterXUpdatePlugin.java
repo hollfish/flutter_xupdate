@@ -52,12 +52,6 @@ public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, Metho
         mMethodChannel = null;
     }
 
-    // public FlutterXUpdatePlugin initPlugin(MethodChannel methodChannel) {
-    //     mMethodChannel = methodChannel;
-    //     mApplication = (Application) registrar.context().getApplicationContext();
-    //     mActivity = new WeakReference<>(registrar.activity());
-    //     return this;
-    // }
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
@@ -291,13 +285,5 @@ public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, Metho
     public void onDetachedFromActivity() {
         mActivity = null;
     }
-    @override 
-    public void onAttachedToEngine(FlutterPlugin.FlutterPluginBinding flutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME);
-        channel.setMethodCallHandler(this);
-    }
-    // public static void registerWith(Registrar registrar) {
-    //     final MethodChannel channel = new MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME);
-    //     channel.setMethodCallHandler(new FlutterXUpdatePlugin().initPlugin(channel, registrar));
-    // }
+   
 }
