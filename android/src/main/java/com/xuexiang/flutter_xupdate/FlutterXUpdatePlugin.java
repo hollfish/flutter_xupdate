@@ -292,9 +292,9 @@ public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, Metho
         mActivity = null;
     }
     @override 
-    public void onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME)
-        channel.setMethodCallHandler(this)
+    public void onAttachedToEngine(FlutterPlugin.FlutterPluginBinding flutterPluginBinding) {
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME);
+        channel.setMethodCallHandler(this);
     }
     // public static void registerWith(Registrar registrar) {
     //     final MethodChannel channel = new MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME);
