@@ -25,8 +25,6 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
-
 /**
  * FlutterXUpdatePlugin
  *
@@ -35,7 +33,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
  */
 public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, MethodCallHandler {
 
-    private static final String PLUGIN_NAME = "com.xuexiang/flutter_xupdate";
+    private static final String PLUGIN_NAME = "com.fork/flutter_xupdate";
 
     private MethodChannel mMethodChannel;
     private Application mApplication;
@@ -54,12 +52,12 @@ public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, Metho
         mMethodChannel = null;
     }
 
-    public FlutterXUpdatePlugin initPlugin(MethodChannel methodChannel, Registrar registrar) {
-        mMethodChannel = methodChannel;
-        mApplication = (Application) registrar.context().getApplicationContext();
-        mActivity = new WeakReference<>(registrar.activity());
-        return this;
-    }
+    // public FlutterXUpdatePlugin initPlugin(MethodChannel methodChannel) {
+    //     mMethodChannel = methodChannel;
+    //     mApplication = (Application) registrar.context().getApplicationContext();
+    //     mActivity = new WeakReference<>(registrar.activity());
+    //     return this;
+    // }
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
@@ -293,9 +291,13 @@ public class FlutterXUpdatePlugin implements FlutterPlugin, ActivityAware, Metho
     public void onDetachedFromActivity() {
         mActivity = null;
     }
-
-    public static void registerWith(Registrar registrar) {
-        final MethodChannel channel = new MethodChannel(registrar.messenger(), PLUGIN_NAME);
-        channel.setMethodCallHandler(new FlutterXUpdatePlugin().initPlugin(channel, registrar));
+    @override 
+    public void onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME)
+        channel.setMethodCallHandler(this)
     }
+    // public static void registerWith(Registrar registrar) {
+    //     final MethodChannel channel = new MethodChannel(flutterPluginBinding.binaryMessenger, PLUGIN_NAME);
+    //     channel.setMethodCallHandler(new FlutterXUpdatePlugin().initPlugin(channel, registrar));
+    // }
 }
